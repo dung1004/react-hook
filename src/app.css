@@ -1,0 +1,28 @@
+body {
+    padding: 0;
+    margin: 0
+}
+.App {
+    margin: 50px auto;
+    width: 500px;
+}
+span{
+    color: white;
+}
+.color-box {
+    height: 100px;
+    width: 100px;
+    border-radius: 4px;
+    border: 1px solid #00000000;
+    box-shadow: 0 -1px 5px #000000a6;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input {
+    margin-bottom: 10px;
+}
+form small.text-muted {
+    color: red !important;
+}
